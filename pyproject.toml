@@ -1,3 +1,8 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+
 [project]
 name = "reserach-assistant"
 version = "0.1.0"
@@ -25,3 +30,10 @@ dependencies = [
     "uvicorn==0.38.0",
     "wikipedia==1.4.0",
 ]
+
+authors =[{ name = "Sohom Banerjee" }]
+license = { text = "Proprietary" }
+
+
+[tool.setuptools.packages.find]
+where = ["research_and_analyst"]

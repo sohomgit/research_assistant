@@ -17,3 +17,6 @@ aiofiles>=23.2.1
 sqlalchemy==2.0.43
 bcrypt==3.2.2
 passlib==1.7.4
+python-multipart==0.0.20
+
+-e .
