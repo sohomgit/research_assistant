@@ -26,7 +26,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-#health check have been added
+#health check have been added for api status monitoring in container orchestration
 @app.get("/health")
 async def health_check():
     """Health check endpoint for container orchestration"""
