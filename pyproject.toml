@@ -29,6 +29,7 @@ dependencies = [
     "tavily-python==0.7.12",
     "uvicorn==0.38.0",
     "wikipedia==1.4.0",
+    "python-multipart==0.0.20"
 ]
 
 authors =[{ name = "Sohom Banerjee" }]
